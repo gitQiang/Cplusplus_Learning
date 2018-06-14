@@ -32,7 +32,7 @@ int main(){
     int ia[] = {0,2,4,6,8,10};
     int i = ia[2];
     cout << "i is " << i << endl;
-    int *px = ia;
+    int *px = &ia[2];
     i = *(px+2);
     cout << "new i is " << i << endl;
 
